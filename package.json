@@ -19,7 +19,28 @@
         "command": "vscode-pull-request-visualstudio.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "sidebar_test",
+          "title": "Visual Studio",
+          "icon": "src/assets/image/logo.svg"
+        }
+      ]
+    },
+    "views": {
+      "sidebar_test": [
+        {
+          "id": "sidebar_test_id1",
+          "name": "Pull Request"
+        },
+        {
+          "id": "sidebar_test_id2",
+          "name": "Issue"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
